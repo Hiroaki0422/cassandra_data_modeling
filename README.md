@@ -1,6 +1,12 @@
 # About this Project
 I modeled song and log data of music app for NoSQL database Apache Cassandra. This modeling process will be used for reference or snippet for my future development. 
 
+**Why Using Cassandra?**
+Cassandra can replicate data across nodes that makes the data highly-available. The multi-nodes structure is also great for write-heavy workload.
+
+**Consideration Before Using Cassandra**
+When you want to run complex analytics, cassandra cannot provide join or aggregation. Relational Database is better for analytical purpose. You want to define primary key, partition key, and composite key well so that the data will be distributed even across the nodes and the unique constraint will not be lost. It is essential for you to know the query beforehand to develop cassandra data model
+
 # Part I. ETL Pipeline for Pre-Processing the Files
 
 ## PRE-PROCESSING THE FILES
