@@ -1,4 +1,4 @@
-# About this process
+# About this Project
 I modeled song and log data of music app for NoSQL database Apache Cassandra. This modeling process will be used for reference or snippet for my future development. 
 
 # Part I. ETL Pipeline for Pre-Processing the Files
